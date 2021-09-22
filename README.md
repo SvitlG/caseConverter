@@ -1,2 +1,2 @@
 # caseConverter
- upper-lower-poper-sentence-cases&downloadText.txt
+ upper-lower-proper-sentence-cases&downloadText.txt
