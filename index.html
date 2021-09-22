@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caseConverter</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Case Converter</h1>
+        </div>
+        <div class="save-text">
+            <label for="filename">File name</label>
+            <input type="text" id="filename" value="text.txt" />
+            <button id="save-text-file" type="button" value="save-text-file">Save Text File</button>
+        </div>
+        <div class="change-text">
+            <label for="case-converter"></label>
+            <textarea id="case-converter" name="case-converter" rows="10" cols="55"></textarea>
+        </div>
+        <div class="converter">
+            <button id="upper-case" type="button" value="upper-case">Upper Case</button>
+            <button id="lower-case" type="button" value="lower">Lower Case</button>
+            <button id="proper-case" type="button" value="proper">Proper Case</button>
+            <button id="sentence-case" type="button" value="sentence">Sentence Case</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

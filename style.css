@@ -1,0 +1,52 @@
+.container {
+    margin-left: 50px;
+}
+.title {
+    font: 2em/2.2em monospace;
+    color: coral;
+}
+.save-text {
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+}
+#save-text-file {
+    width: auto;
+    padding: 20px 15px;
+}
+input {
+    padding: 0 20px;
+    border: none;
+    border-bottom: 5px dashed grey;
+    outline: 5px dashed grey;
+}
+input:hover {
+    background-color: pink;
+}
+input:focus, textarea:focus {
+    outline: 5px dotted pink;
+    border: none;
+}
+[value="text.txt"] {
+    color: gray;
+}
+label:first-child, button, input {
+    font-family: monospace;
+    font-size: 1.5em;
+}
+button {
+    color: pink;
+    background-color: rgba(0,139,139, 0.8);
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+}
+button:hover {
+    color: rgba(0,139,139, 0.8) ;
+    background-color: pink;
+}
+textarea {
+    margin-top: 20px;
+    padding: 50px;
+    font: 1.2em/1.5em monospace;
+}
